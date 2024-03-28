@@ -1,0 +1,48 @@
+.corFundo {
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(145, 141, 204), rgb(104, 28, 175), rgb(5, 5, 121));
+    margin-top: 100px;
+}
+
+.letras {
+    color: rgb(236, 243, 199);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.caixaDeTexto {
+    border-radius: 3px;
+    border: 1px;
+    width: 180px;
+    height: 20px;
+}
+
+.caixa {
+    display: none;
+    background-color: #98a6e5;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    width: 15%;
+    height: 40px;
+    font-weight: 500;
+}
+
+.caixaBinario {
+    display: none;
+    background-color: #98a6e5;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    width: 60%;
+    height: 40px;
+    font-weight: 500;
+}
+
+.botao {
+    background-color: #8277d5;
+    border-radius: 40px;
+    border: 1px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
