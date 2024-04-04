@@ -40,9 +40,9 @@
 
 .botao {
     background-color: #8277d5;
-    border-radius: 40px;
+    border-radius: 10px;
     border: 1px;
-    width: 100px;
-    height: 50px;
-    font-size: large;
+    width: 120px;
+    height: 70px;
+    font-size: x-large;
 }

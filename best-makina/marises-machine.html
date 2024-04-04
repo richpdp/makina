@@ -18,30 +18,42 @@
 
                 <br><br>
 
-                <h3 class="letras">Decimal</h3>
-                <input id="demo1" type="text" placeholder="Digite o valor em decimal" class="caixaDeTexto">
-
-                <br><br>
-
-                <h3 class="letras">Converter para:</h3>
-
-
-                <input onclick="aparecer_octal()" type="checkbox"><b class="letras">Octal</b>
+                <h3 class="letras">Informe o valor que deseja converter:</h3>
+                <input type="text" id="demo1" placeholder="Digite um número...">
+        
+                <span class="letras">de base</span>
+                <select id="demo6">
+                    <option value="demo2">Decimal</option>
+                    <option value="demo3">Octal</option>
+                    <option value="demo4">Hexadecimal</option>
+                    <option value="demo5">Binário</option>
+                </select> <br>
+                <!-- <input id="demo1" type="text" placeholder="Digite o valor em decimal" class="caixaDeTexto"> -->
+                
                 <br>
+                
+                <!-- <h3 class="letras">Converter para:</h3> -->
+                
+                <input onclick="aparecer_dec()" type="checkbox"><b class="letras">Decimal</b><br>
                 <div id="demo2" class="caixa"></div>
 
                 <br><br>
 
-                <input onclick="aparecer_hexa()" type="checkbox"><b class="letras">Hexadecimal</b>
+                <input onclick="aparecer_octal()" type="checkbox"><b class="letras">Octal</b>
                 <br>
                 <div id="demo3" class="caixa"></div>
 
                 <br><br>
 
+                <input onclick="aparecer_hexa()" type="checkbox"><b class="letras">Hexadecimal</b>
+                <br>
+                <div id="demo4" class="caixa"></div>
+
+                <br><br>
+
                 <input onclick="aparecer_bin()" type="checkbox"><b class="letras">Binário</b>
                 <br>
-                <div id="demo4" class="caixaBinario"></div>
-
+                <div id="demo5" class="caixaBinario"></div>
                 <br><br>
 
                 <button onclick="converter()" class="botao">Converter</button>
